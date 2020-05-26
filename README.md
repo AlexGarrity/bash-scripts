@@ -11,3 +11,11 @@ LoadScripts
 ```
 
 (There's probably a better way but they're tiny and too hacky for some proper method)
+
+
+### Features
+Automatically loads scripts in `~./.scripts` when you start a bash terminal.
+Put #NOAUTOLOAD in the file and it won't source it (useful for helpers that are called by services or something like that)
+Infinite loading capacity (well, as much as bash can handle)
+Really small
+Kinda neat I guess
